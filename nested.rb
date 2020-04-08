@@ -131,12 +131,13 @@ def adding_to_dennis
       }
     }
 def update_counting_hash(hash, key)
-  if hash["Assembly"]
-    hash["Assembly"] = hash["Assembly"] + 1
+  if programmer_hash[:dennis_ritchie][:languages] ["Assembly"]
+    
+    programmer_hash[:dennis_ritchie][:languages] ["Assembly"]= programmer_hash[:dennis_ritchie][:languages]["Assembly"] + 1
   else
-    hash["Assembly"] = 1
+    programmer_hash[:dennis_ritchie][:languages]["Assembly"] = 1
   end
-  hash
+  programmer_hash[:dennis_ritchie][:languages]
 end
 programmer_hash
 end
