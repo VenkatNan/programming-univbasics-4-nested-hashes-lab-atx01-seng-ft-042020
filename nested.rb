@@ -114,7 +114,7 @@ def changing_alan(hash, key)
   programmer_hash[:alan_kay][:known_for]["GUI"] = 1
   programmer_hash[:alan_kay][:known_for]
 end
-
+programmer_hash
 end
 
 def adding_to_dennis
