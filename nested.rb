@@ -109,9 +109,10 @@ def changing_alan
     }
     
 def changing_alan(hash, key)
-  hash["GUI"] ? 
-  hash[key] += 1 :hash[key] = 1
-  hash
+ programmer_hash[:alan_kay][:known_for]["GUI"] ? 
+  programmer_hash[:alan_kay][:known_for]["GUI"] += 1 :
+  programmer_hash[:alan_kay][:known_for]["GUI"] = 1
+  programmer_hash[:alan_kay][:known_for]
 end
 
 end
