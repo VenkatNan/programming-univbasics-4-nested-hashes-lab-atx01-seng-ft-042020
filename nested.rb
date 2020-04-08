@@ -81,7 +81,10 @@ def adding_matz
         :languages => ["C"]
       }
     }
-
+programmer_hash[:additional_characters] = [
+  { name: "Prince Escalus" },
+  { name: "Apothecary" }
+]
 end
 
 def changing_alan
