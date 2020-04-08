@@ -131,10 +131,10 @@ def adding_to_dennis
       }
     }
 def update_counting_hash(hash, key)
-  if hash[key]
-    hash[key] = hash[key] + 1
+  if hash["Assembly"]
+    hash["Assembly"] = hash["Assembly"] + 1
   else
-    hash[key] = 1
+    hash["Assembly"] = 1
   end
   hash
 end
