@@ -130,14 +130,7 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
-def update_counting_hash(hash, key)
-  if programmer_hash[:dennis_ritchie][:languages] ["Assembly"]
-    
-    programmer_hash[:dennis_ritchie][:languages] ["Assembly"]= programmer_hash[:dennis_ritchie][:languages]["Assembly"] + 1
-  else
-    programmer_hash[:dennis_ritchie][:languages]["Assembly"] = 1
-  end
-  programmer_hash[:dennis_ritchie][:languages]
+programmer_hash[:dennis_ritchie][:languages]=["C","GUI"]
 end
 programmer_hash
 end
