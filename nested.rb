@@ -108,7 +108,7 @@ def changing_alan
       }
     }
     
-def update_counting_hash(hash, key)
+def changing_alan(hash, key)
   hash[key] ? hash[key] += 1 : hash[key] = 1
   hash
 end
