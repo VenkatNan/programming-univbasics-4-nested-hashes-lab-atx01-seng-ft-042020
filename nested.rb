@@ -109,7 +109,8 @@ def changing_alan
     }
     
 def changing_alan(hash, key)
-  hash[key] ? hash[key] += 1 : hash[key] = 1
+  hash["GUI"] ? 
+  hash[key] += 1 :hash[key] = 1
   hash
 end
 
