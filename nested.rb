@@ -108,7 +108,11 @@ def changing_alan
       }
     }
     
-programmer_hash[:alan_kay][:known_for]
+def update_counting_hash(hash, key)
+  hash[key] ? hash[key] += 1 : hash[key] = 1
+  hash
+end
+
 end
 
 def adding_to_dennis
